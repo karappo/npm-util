@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-  - "12.13"
-# TODO: See https://docs.travis-ci.com/user/deployment/npm/
-# deploy:
-#   provider: npm
-#   email: "terada@karappo.net"
-#   api_key: "YOUR_AUTH_TOKEN"
+- '12.13'
+deploy:
+  provider: npm
+  email: "naokazu.terada@gmail.com"
+  api_key:
+    secure: kJdIq4Qvr6dqlbF4QcCLJqaz35SsiA8Owga3YNaJsl86/OGUzPvEYIohB3XOoJKNcOAFc23ABLIJKCfZpAq0U9E0YwiZ1O3Etiu9gptcZoj2ZpdUc5YfWgdIkhRQgZ86ioJ7SBut9g2ZkJVUOEGrqfwL3wRd0fVCfJk/S8dQ0VSmJBG5AnhofEHIZy3cxE/G34D/8c2PigVs54wwpMUnBBq7NS1xXMD4GtU4TqVFr9ACTH1xcZPzOQSQ52C/N0kkds3ESQjwE01JHmbnz3712SYr26dlof8zFphIbXxOpaarPOg3wTlAEEY98IFqdh7ssWLMiIV53+UGZ4u2G1dNmoRY/EBpH+Zc8wdmb507jLWBOSECztjcj9dqrcATkKLTpzQvfVwvJ6ywvzW0c/lNzfqkqB5VPoAFrusbieUxTmWEl5uk8PqLs/mehef1ezDPXC7DQ/GlAzgFNzYvatC7wciFzNKaWAsUjFYWW125Dmx5RHT4MvrTrv6eBVtKFqlGJsBOoaufZFqT4EH/PEDFMM9bqLT1OmRPLDgut+XRbXKzADQkjeNCWh3GdM6f57jsLNLsTmbdq+1kftNiEOIdCRQ5zq8p+BS1a3W28swclPUWfitepZBYRbdzxseM/okFGYDIHLY2zTZZt7ZA4BIF6ECr75v2Dirtlkbk11j8Cww=
+  on:
+    tags: true
+    condition: $TRAVIS_TAG =~ ^v[0-9\.]+$
