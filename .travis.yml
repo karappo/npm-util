@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "12.13"
+# See https://docs.travis-ci.com/user/deployment/npm/
+# deploy:
+#   provider: npm
+#   email: "terada@karappo.net"
+#   api_key: "YOUR_AUTH_TOKEN"
