@@ -1,0 +1,27 @@
+{
+  "name": "@karappo-inc/util",
+  "version": "0.0.1",
+  "description": "Useful codes for and by Karappo Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karappo/npm-util.git"
+  },
+  "author": "naokazuterada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karappo/npm-util/issues"
+  },
+  "homepage": "https://github.com/karappo/npm-util#readme",
+  "devDependencies": {
+    "@ava/babel": "^1.0.0",
+    "ava": "^3.2.0",
+    "jsdom": "^16.1.0"
+  },
+  "ava": {
+    "babel": true
+  }
+}
