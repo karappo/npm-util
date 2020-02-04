@@ -21,10 +21,4 @@ isValidColor('rgba(0,0,0,0.5)') // true
 
 # for Developer
 
-## Publish
-
-```sh
-npm publish
-```
-
-then enter OTP(OneTimePassword)
+Push with tags, then Travis CI will deploy automatically.
