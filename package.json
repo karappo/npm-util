@@ -17,6 +17,7 @@
     "url": "https://github.com/karappo/npm-util/issues"
   },
   "homepage": "https://github.com/karappo/npm-util#readme",
+  "keywords": ["utilities", "utils"],
   "devDependencies": {
     "@ava/babel": "^1.0.0",
     "ava": "^3.2.0",
