@@ -4,7 +4,8 @@
   "description": "Useful codes for and by Karappo Inc.",
   "main": "index.js",
   "scripts": {
-    "test": "ava -v"
+    "test": "ava -v",
+    "publish": "npm publish --access public ./"
   },
   "repository": {
     "type": "git",
