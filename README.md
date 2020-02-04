@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/karappo/npm-util.svg?branch=master)](https://travis-ci.org/karappo/npm-util)
 
-# for User
+# for Users
 ## Features
 
 ```js
@@ -19,6 +19,6 @@ isValidColor('#ffffff') // true
 isValidColor('rgba(0,0,0,0.5)') // true
 ```
 
-# for Developer
+# for Developers
 
 Push with tags, then Travis CI will deploy automatically.
