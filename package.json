@@ -1,6 +1,6 @@
 {
   "name": "@karappo-inc/util",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Useful codes for and by Karappo Inc.",
   "main": "index.js",
   "publishConfig": {
@@ -23,16 +23,10 @@
     "utilities",
     "utils"
   ],
-  "dependencies": {
-    "child_process": "^1.0.2",
-    "fs": "0.0.1-security",
-    "jsdom": "^16.4.0",
-    "net": "^1.0.2",
-    "tls": "0.0.1"
-  },
   "devDependencies": {
     "@ava/babel": "^1.0.0",
-    "ava": "^3.2.0"
+    "ava": "^3.2.0",
+    "jsdom": "^16.4.0"
   },
   "ava": {
     "babel": true
