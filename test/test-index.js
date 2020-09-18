@@ -1,5 +1,5 @@
 import test from 'ava'
-import { JSDOM } from "jsdom"
+import { JSDOM } from 'jsdom'
 import { isValidColor } from '../index'
 
 test.beforeEach(() => {
