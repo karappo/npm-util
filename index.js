@@ -1,3 +1,6 @@
+const jsdom = require("jsdom");
+const document = new jsdom.JSDOM().window.document;
+
 const hexToRgb = (hex) => {
   const res = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
   return res ? `rgb(${parseInt(res[1], 16)},${parseInt(res[2], 16)},${parseInt(res[3], 16)})` : null
