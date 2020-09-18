@@ -3,6 +3,9 @@
   "version": "0.0.12",
   "description": "Useful codes for and by Karappo Inc.",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava -v"
   },
