@@ -25,10 +25,12 @@
   ],
   "devDependencies": {
     "@ava/babel": "^1.0.0",
-    "ava": "^3.2.0",
-    "jsdom": "^16.4.0"
+    "ava": "^3.2.0"
   },
   "ava": {
     "babel": true
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0"
   }
 }
