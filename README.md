@@ -21,4 +21,10 @@ isValidColor('rgba(0,0,0,0.5)') // true
 
 # for Developers
 
-Push with tags, then Travis CI will deploy automatically.
+#### Publish to npm registory
+
+You can also publish manualy
+```sh
+npm login
+npm publish --access=public .
+```
