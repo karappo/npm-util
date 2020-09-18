@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/karappo/npm-util#readme",
   "keywords": ["utilities", "utils"],
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  },
   "devDependencies": {
     "@ava/babel": "^1.0.0",
-    "ava": "^3.2.0",
-    "jsdom": "^16.1.0"
+    "ava": "^3.2.0"
   },
   "ava": {
     "babel": true
