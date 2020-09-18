@@ -16,7 +16,10 @@
     "url": "https://github.com/karappo/npm-util/issues"
   },
   "homepage": "https://github.com/karappo/npm-util#readme",
-  "keywords": ["utilities", "utils"],
+  "keywords": [
+    "utilities",
+    "utils"
+  ],
   "dependencies": {
     "jsdom": "^16.4.0"
   },
