@@ -26,5 +26,5 @@ isValidColor('rgba(0,0,0,0.5)') // true
 You can also publish manualy
 ```sh
 npm login
-yarn publish
+yarn npm-publish
 ```
