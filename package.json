@@ -1,6 +1,6 @@
 {
   "name": "@karappo-inc/util",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Useful codes for and by Karappo Inc.",
   "main": "index.js",
   "publishConfig": {
