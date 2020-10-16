@@ -19,6 +19,14 @@ isValidColor('#ffffff') // true
 isValidColor('rgba(0,0,0,0.5)') // true
 ```
 
+```js
+import { sleep } from '@karappo-inc/util'
+
+console.log('start...')
+await sleep(1000)
+console.log('... 1 sec passed')
+```
+
 # for Developers
 
 #### Publish to npm registory
